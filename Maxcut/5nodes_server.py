@@ -43,7 +43,7 @@ print(circuit)
 print(circuit.parameters)
 
 # IBM Quantum setup
-service = QiskitRuntimeService(channel='ibm_quantum', token="ecb7606c1e598600e332adab72e2bc98aa62969c5dd768fd9f157fe20754442bddd316d2b8f4e18386d25cd614fc5a257f7ce65c14dec45db911ffa86b8cf183")
+service = QiskitRuntimeService(channel='ibm_quantum', token="")
 backend = service.least_busy(min_num_qubits=127)
 print(backend)
 
